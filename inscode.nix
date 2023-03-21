@@ -1,5 +1,6 @@
 { pkgs }: {
-    deps = [
-        pkgs.cowsay
-    ];
+  deps = [
+    pkgs.python310Packages.pip
+    pkgs.python310Full
+  ];
 }

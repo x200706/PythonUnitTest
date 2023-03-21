@@ -1,4 +1,4 @@
-run = "cowsay 欢迎来到 InsCode"
+run = "pip install -r requirements.txt;python3 main.py"
 
 [nix]
 channel = "stable-22_11"

@@ -1,5 +1,8 @@
 run = "pip install -r requirements.txt;python main.py"
 
+[packager]
+AUTO_PIP = true
+
 [env]
 VIRTUAL_ENV = "/root/${PROJECT_DIR}/venv"
 PATH = "${VIRTUAL_ENV}/bin:${PATH}"
